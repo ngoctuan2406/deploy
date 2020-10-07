@@ -42,14 +42,14 @@ self.addEventListener('install', function(e) {
   e.waitUntil(
     caches.open('fox-store').then(function(cache) {
       return cache.addAll([
-        '/test/',
-        '/test/index.html',
-        '/test/index.js',
-        '/test/style.css',
-        '/test/images/fox1.jpg',
-        '/test/images/fox2.jpg',
-        '/test/images/fox3.jpg',
-        '/test/images/fox4.jpg'
+        '/',
+        '/index.html',
+        '/index.js',
+        '/style.css',
+        '/images/fox1.jpg',
+        '/images/fox2.jpg',
+        '/images/fox3.jpg',
+        '/images/fox4.jpg'
       ]);
     })
   );
