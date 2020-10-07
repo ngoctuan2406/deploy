@@ -3,7 +3,8 @@ html {
   background: black;
 }
 .add-button{
-  height: 200;
+  height: 20%;
+  width: 100%;
 }
 body {
   height: inherit;
