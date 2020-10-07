@@ -3,8 +3,9 @@ html {
   background: black;
 }
 .add-button{
-  height: 20%;
+  height: 10%;
   width: 100%;
+  margin: 20px;
   position: absolute;
 bottom:   0;
 }
