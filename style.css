@@ -2,7 +2,9 @@ html {
   height: 100%;
   background: black;
 }
-
+.add-button{
+  height: 200;
+}
 body {
   height: inherit;
   margin: 0;
